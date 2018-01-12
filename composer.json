@@ -1,24 +1,24 @@
 {
-    "name": "buonzz/composer-library-template",
-    "description": "Boilerplate package for creating other packages.",
-    "keywords": ["template", "composer", "package"],
-    "license": "DBAD",
-    "authors": [
-        {
-            "name": "Darwin Biler",
-            "email": "buonzz@gmail.com"
-        }
-    ],
-    "type": "project",
-    "require": {
-		"php": ">=5.4"
-    },
-	"require-dev": {
-		"phpunit/phpunit": "5.2.*"
-    },
-	"autoload": {
-        "psr-4": {
-            "Buonzz\\Template\\": "src/"
-        }
+  "name": "phpv/phpv",
+  "description": "command line tool to swap current apache php version",
+  "keywords": ["cli", "php-version", "package"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric Ellingson",
+      "email": "ellingsonster@gmail.com"
     }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPv\\PHPv\\": "src/"
+    }
+  }
 }
