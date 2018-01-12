@@ -1,5 +1,5 @@
 {
-  "name": "EKE/phpv",
+  "name": "eke/phpv",
   "description": "command line tool to swap current apache php version",
   "keywords": ["cli", "php-version", "package"],
   "license": "MIT",
