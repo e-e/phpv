@@ -18,7 +18,7 @@ class PHPvTest extends PHPUnit_Framework_TestCase{
   *
   */
   public function testIsThereAnySyntaxError(){
-	$var = new PHPv\PHPv\PHPv;
+	$var = new EKE\PHPv\PHPv;
 	$this->assertTrue(is_object($var));
 	unset($var);
   }
@@ -31,8 +31,8 @@ class PHPvTest extends PHPUnit_Framework_TestCase{
   *
   */
   public function testMethod1(){
-	$var = new PHPv\PHPv\PHPv;
-	$this->assertTrue($var->method1("hey") == 'Hello World');
+	$var = new EKE\PHPv\PHPv;
+	$this->assertTrue($var->main("hey") == 'Hello World');
 	unset($var);
   }
   

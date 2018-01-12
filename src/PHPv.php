@@ -1,4 +1,4 @@
-<?php namespace PHPv\PHPv;
+<?php namespace EKE\PHPv;
 
 /**
 *  A sample class
