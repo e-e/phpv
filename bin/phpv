@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
-
-require "../../../autoload.php";
-
+$ds = DIRECTORY_SEPARATOR;
+$path = realpath(dirname(__FILE__) . "$ds..$ds..$ds..$ds" . "autoload.php");
+require "$path";
+unset($path);
+unset($ds);
 \EKE\PHPv\PHPv::main();
