@@ -23,7 +23,7 @@ class PHPv {
   *
   * @return string
   */
-   public static function main($param1){
+   public static function main($param1 = ''){
 			echo "Hello World";
    }
 }
