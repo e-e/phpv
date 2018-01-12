@@ -9,6 +9,7 @@
       "email": "ellingsonster@gmail.com"
     }
   ],
+  "bin": ["bin/phpv"],
   "type": "library",
   "require": {
     "php": ">=5.4"

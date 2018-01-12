@@ -24,6 +24,6 @@ class PHPv {
   * @return string
   */
    public function main($param1){
-			return "Hello World";
+			echo "Hello World";
    }
 }
